@@ -1,0 +1,78 @@
+*{
+    margin: 5;
+    padding: 5%;
+    box-sizing: border-box;
+   
+ 
+}
+#section{
+    padding: 32px;
+    margin: 18px;
+border: 2px solid black;
+width: 500px;
+   
+}
+section img{ 
+    width: 100%;
+}
+#header{
+    border: 2px solid black;
+
+}
+#black{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 400px;
+}
+#yellow{
+    padding: 35px;
+    margin: 18px;
+    border: 2px solid rgb(216, 13, 13);
+    width: 100hv;
+}
+#green{
+    padding:3px ;
+    margin:12px ;
+    border: 2px solid rgb(6, 68, 6);
+    background-color: green;
+    color: rgb(3, 29, 3);
+}
+#center {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+    background-color: yellow;
+    color: black;
+    width: 200px;
+    height: 100px;
+    display: flex ;
+    justify-content: center;
+}
+#cat{
+    border: 3px solid red;
+    padding: 0px;
+    margin: 0px;
+
+}
+#fish{
+    border: 2px solid gray;
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+    height: 50px;
+    display: flex ;
+    justify-content: center;
+}
+#dog{
+    border: 2px solid gray;
+    padding: 0px;
+    margin: 50px;
+    width: 450px;
+    height: 100px;
+    display: flex ;
+    justify-content: center;
+    
+   
+}
+
