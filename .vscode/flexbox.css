@@ -1,0 +1,32 @@
+* {
+  margin: 20px;
+  padding: 20px;
+  margin-top: 2px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+.header div {
+  background-color: aquamarine;
+  border-radius: 10px;
+  border-color: rgb(15, 165, 115);
+  border: 3px solid rgb(14, 204, 147);
+  height: 100px;
+  width: 300px;
+  display: flex;
+  color: aquamarine;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  box-shadow:8px 8px 8px  rgb(17, 139, 99);
+}
+.feet{
+height: 20px;
+width: 1200px;
+border-radius: 10px;
+color: blueviolet;
+background-color: blueviolet;
+border: 3px solid rgb(98, 25, 167);
+box-shadow:8px 8px 8px  rgb(117, 7, 81);
+}
