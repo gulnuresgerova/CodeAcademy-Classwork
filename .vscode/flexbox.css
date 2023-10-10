@@ -30,3 +30,15 @@ background-color: blueviolet;
 border: 3px solid rgb(98, 25, 167);
 box-shadow:8px 8px 8px  rgb(117, 7, 81);
 }
+.head{
+margin: 0;
+padding: 0;
+height: 40px;
+width: 1400px;
+border-radius: 10px;
+color: rgb(29, 13, 14);
+background-color: rgb(24, 14, 14);
+border: 3px solid rgb(78, 9, 9);
+box-shadow:8px 8px 8px  rgb(102, 4, 12);
+
+}

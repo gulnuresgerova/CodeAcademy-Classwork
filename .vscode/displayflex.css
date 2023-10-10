@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0 10px;
+}
+
+.container {
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid red;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes .box3 {
+  background-color: aqua;
+  width: 33%;
+  height: 60px;
+  margin: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.boxes .box5 {
+  border: 1px solid black;
+  width: 25%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+.boxes .box1 {
+  border: 1px solid black;
+  width: 99%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+.boxes .box2 {
+  border: 1px solid black;
+  width: 50%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+.boxes .box4 {
+  border: 1px solid black;
+  width: 25%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+#b {
+  background-color: blueviolet;
+}
+#m {
+  background-color: coral;
+}
+#y {
+  background-color: chartreuse;
+}
+#g {
+  background-color: darkgreen;
+}
