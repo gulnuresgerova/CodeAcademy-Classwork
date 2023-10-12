@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 2000px;
+  height: 2000px;
+}
+#abcd {
+  max-height: 1200px;
+}
+.A,
+.B,
+.C,
+.D {
+  height: 30px;
+  width: 100%;
+  background-color: aqua;
+  color: rgb(23, 112, 82);
+}
+.A {
+  position: sticky;
+  top: 0;
+}
+.B {
+  position: sticky;
+  top: 0;
+}
+.C {
+  position: sticky;
+  top: 0;
+}
+
+.D {
+  position: sticky;
+  top: 0;
+}
