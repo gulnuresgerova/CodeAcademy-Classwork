@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: black;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+}
+header .header nav ul li {
+  text-shadow: 7px 7px 5px yellowgreen;
+  color: aliceblue;
+}
+header .header .singup button {
+  border: 2px solid aliceblue;
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+}
+header .header .singup button:hover {
+  cursor: pointer;
+  background-color: black;
+  box-shadow: -7px 7px 9px aliceblue;
+  color: aliceblue;
+  border-color: black;
+}
+
+header .header .logo,
+header .header a,
+.header .fa-bars {
+  color: aliceblue;
+  text-shadow: 7px 7px 5px yellowgreen;
+}
+header .header {
+  column-gap: 7rem;
+}
+header .header nav ul {
+  display: flex;
+  column-gap: 3rem;
+}
+header .header nav ul li:hover {
+  color: aqua;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+  .header .fa-bars {
+    display: none;
+  }
+ .singup{
+    display: flex;
+
+ }
+}
+@media screen and (max-width: 767px) {
+  .header .fa-bars {
+    display: block;
+  }
+  header .header nav {
+    display: none;
+  }
+  header .header .singup button {
+    display: none;
+  }
+}
+#footen {
+  color: rgb(236, 238, 238);
+  height: 50vh;
+  background-color: black;
+}
+#footen .footen {
+  display: flex;
+}
+#footen .footen .left {
+  width: 50%;
+  align-items: center;
+  align-content: center;
+  margin: 80px;
+}
+.quicky h1 {
+  font-size: 60px;
+  text-shadow: 6px 6px 3px rgb(95, 98, 100);
+}
+
+ .icone i {
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 2px solid white;
+}
+
+#footen .footen .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 3%;
+  margin: 30px;
+}
+.right nav ul h2 {
+  text-shadow: 4px 4px 3px rgb(98, 99, 100);
+}
+.icone i {
+  border: 2px;
+  background-color: transparent;
+  padding: 1px;
+  border-radius: 50%;
+
+}
+.product{
+    width: 100%;
+}
+.card .product-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.products .card .products-icone{
+    display: flex;
+    gap: 30px;
+}
+.mean .card img {
+    width: 100%;
+    display: flex;
+}
+.mean {
+    display: flex;
+    
+}
+#foto {
+    display: flex;
+}
