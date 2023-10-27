@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../first-team-project"
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501
+  }
+}
